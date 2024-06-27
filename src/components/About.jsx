@@ -13,8 +13,8 @@ const About = () => {
             </div>
             </motion.div>
             <motion.div whileInView={{opacity: 1, x: 0}} initial={{opacity:0 , x: 100}} transition={{duration: 1}} className="w-full lg:w-1/2">
-            <div className="flex justify-center lg:justify-start pt-11">
-              <p className="my-2 max-w-xl py-6 text-xl">
+            <div className="flex justify-center lg:justify-start pt-2">
+              <p className="my-2 max-w-xl py-6 text-lg">
                 <ul className="list-disc">
                   {ABOUT_TEXT.trim().split('\n').map((point, index) => (
                     <li key={index}>{point.trim().replace(/^\s*-\s*/, '')}</li>

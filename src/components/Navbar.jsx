@@ -1,9 +1,9 @@
-import logo from "../assets/UpdatedLogo.png";
+import logo from "../assets/AGVSLogoUpdated.png";
 import { FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
 
 const Navbar = () => {
-  return <nav className="mb-20 flex items-center justify-between py-6">
+  return <nav className="mb-1 flex items-center justify-between py-3">
     <div className="flex flex-shrink-0 items-center">
         <img className="mx-2 w-32" src={logo} alt="logo" />
     </div>

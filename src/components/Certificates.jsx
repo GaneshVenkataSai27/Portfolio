@@ -24,10 +24,10 @@ const Certificates = () => {
             transition={{ duration: 1 }}
             className="w-full max-w-xl"
           >
-            <h6 className="mb-2 font-semibold text-center lg:text-left text-2xl">
+            <h6 className="mb-2 font-semibold text-center lg:text-left text-xl">
               {project.title}
             </h6>
-            <p className="mb-4 text-neutral-400 text-xl">
+            <p className="mb-4 text-neutral-400 text-lg">
               {project.description}
             </p>
             <div className="flex flex-wrap">
@@ -63,10 +63,10 @@ const Certificates = () => {
             transition={{ duration: 1 }}
             className="w-full max-w-xl"
           >
-            <h6 className="mb-2 font-semibold text-center lg:text-left text-2xl">
+            <h6 className="mb-2 font-semibold text-center lg:text-left text-xl">
               {certificate.title}
             </h6>
-            <p className="mb-4 text-neutral-400 text-xl">
+            <p className="mb-4 text-neutral-400 text-lg">
               {certificate.description}
             </p>
             <div className="flex flex-wrap">

@@ -29,7 +29,7 @@ const Experience = () => {
                         {experience.role} - <span className="text-2xl text-purple-600">{experience.company}</span>
                     </h6>
                     <p className="mb-4 text-neutral-400 text-xl">
-                        <ul className="list-disc pl-6 text-neutral-400 text-xl">
+                        <ul className="list-disc pl-6 text-neutral-400 text-base">
                             {experience.description.map((line, idx) => (
                                 <li key={idx}>{line}</li>
                             ))}

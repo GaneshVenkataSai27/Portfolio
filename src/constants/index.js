@@ -49,7 +49,7 @@ export const PROJECTS = [
     title: "CLMS",
     image: project1,
     description:
-      "A fully functional Contract Labour Management website with features like Labour & Vendor Management, Labour CheckIn CheckOut, and user authentication.",
+      "A fully functional Contract Labour Management website with features like Labour CheckIn CheckOut, and user authentication.",
     technologies: ["React JS", "Spring Boot", "MySQL"],
   },
   {
